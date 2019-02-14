@@ -14,3 +14,8 @@ docker run -it -p 22:22 -p 8200:8200 --name postgres pferrervich/postgres /bin/b
 ```{r, echo=false}
 docker run -p 21:21 -p 20:20 --name proftpd -e USERNAME=username -e PASSWORD=password -v `pwd`/ftp:/ftp pferrervich/docker-proftpd
 ```
+
+### Streama
+```{r, echo=false}
+docker run  -p 20:20 80:8080 -p 80:8080/udp stre
+```
