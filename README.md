@@ -17,5 +17,5 @@ docker run -p 21:21 -p 20:20 --name proftpd -e USERNAME=username -e PASSWORD=pas
 
 ### Streama
 ```{r, echo=false}
-docker run  -p 20:20 80:8080 -p 80:8080/udp stre
+docker run 80:8080 -p 80:8080/udp stre
 ```
