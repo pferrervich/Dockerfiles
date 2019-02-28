@@ -1,6 +1,7 @@
 FROM ubuntu
 VOLUME /data
 EXPOSE 8080
+EXPOSE 443
 ENV ACTIVE_PROFILE=docker
 
 ENV DL_LINK=https://github.com/streamaserver/streama/releases/download/v1.6.1/streama-1.6.1.war
